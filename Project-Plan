@@ -1,0 +1,35 @@
+Idea/Approach Details
+Department Category: Education Department
+Problem Statement: GPS based Vehicle Tracking System for school children
+Team Leader Name: Paresh Vala
+College Name: Birla Vishvakarma Mahavidyalaya
+
+1)	How will you solve the problem (Methodology)? 
+
+  •	We will design an admin web app where he will design the route for the bus driver.
+  •	Admin will also register all the students in the database along with parents contact number, route and pickup point, address and the name of driver and bus number.
+  •	The admin will register the driver as well with his contact details. Admin will set a specific route and assign a bus and driver to it.
+  •	The bus will have a mobile phone connected to it and driver will login and share the location. The parents can track the bus with their android app. 
+  •	Parents will also get all the important announcement that will be shared by the admin.
+ 
+2)	Tools and Technologies to be used (Mention if any special software/Hardware you are going to use)
+
+  •	Tools : Android Studio , Android Mobile (GPS), Wamp Server , Dream Viewer 
+  •	Technologies: Android, Java, PHP, JS, HTML5, CSS3.
+
+3)	Possible outcome of your work. 
+  •	We will have 1 web app for Admin who will manage students, bus, driver, announcement and route management.
+  •	We will have an android app for parents which will track the bus and display important announcement. 
+  •	There will be an android app for driver who will share his location and get announcement done by the admin.
+
+4)	Challenges/Risk in implementing your Final prototype. 
+
+  •	The only requirement and need for our project to run is to get internet connectivity.
+ 
+5)	Work done till date.
+
+  •	We designed the prototype of admin panel. We have built database and done login from the parents app.
+
+6)	Image/Screenshot/Video link of your solution (If any)
+
+
