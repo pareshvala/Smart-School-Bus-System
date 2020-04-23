@@ -1,0 +1,18 @@
+ AlertDialog.Builder builder=new AlertDialog.Builder(this);
+
+        builder.setMessage("Welcome To Dialog World")
+                .setTitle("Chooe any Button to findout action").setCancelable(false)
+                .setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        Toast.makeText(MainActivity.this,"You have Pressesd Ok",Toast.LENGTH_LONG).show();
+                    }
+                }).setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                dialogInterface.cancel();
+            }
+        });
+        AlertDialog dialog = builder.create();
+        dialog.show();
+    }
